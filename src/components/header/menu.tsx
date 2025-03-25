@@ -67,7 +67,7 @@ export function Menu() {
               <ThemeToggle />
               <li onClick={() => window.open(Homepage)}>
                 <span className="i-ph:github-logo-duotone inline-block" />
-                <span>去看看->爱喝水的木子<-</span>
+                <span>去看看 <b>爱喝水的木子</b> </span>
               </li>
               <li className="flex gap-2 items-center">
                 <a
