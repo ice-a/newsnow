@@ -67,7 +67,17 @@ export function Menu() {
               <ThemeToggle />
               <li onClick={() => window.open(Homepage)}>
                 <span className="i-ph:github-logo-duotone inline-block" />
-                <span>Star on Github </span>
+                <span>去看看->爱喝水的木子<-</span>
+              </li>
+              <li className="flex gap-2 items-center">
+                <a
+                  href="https://github.com/ice-a"
+                >
+                  <img
+                    alt="GitHub follower"
+                    src="https://img.shields.io/github/followers/ice-a"
+                  />
+                </a>
               </li>
               <li className="flex gap-2 items-center">
                 <a
@@ -87,6 +97,7 @@ export function Menu() {
                   />
                 </a>
               </li>
+              
             </ol>
           </motion.div>
         </div>
