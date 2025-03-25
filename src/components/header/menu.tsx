@@ -65,35 +65,13 @@ export function Menu() {
                     </li>
                   ))}
               <ThemeToggle />
-              <li onClick={() => window.open(Homepage)}>
-                <span className="i-ph:github-logo-duotone inline-block" />
-                <span>去看看 <b>爱喝水的木子</b> </span>
-              </li>
               <li className="flex gap-2 items-center">
                 <a
                   href="https://github.com/ice-a"
-                >
+                ><span>去看看 <b>爱喝水的木子</b> </span>
                   <img
                     alt="GitHub follower"
                     src="https://img.shields.io/github/followers/ice-a"
-                  />
-                </a>
-              </li>
-              <li className="flex gap-2 items-center">
-                <a
-                  href="https://github.com/ourongxing/newsnow"
-                >
-                  <img
-                    alt="GitHub stars badge"
-                    src="https://img.shields.io/github/stars/ourongxing/newsnow?logo=github"
-                  />
-                </a>
-                <a
-                  href="https://github.com/ourongxing/newsnow/fork"
-                >
-                  <img
-                    alt="GitHub forks badge"
-                    src="https://img.shields.io/github/forks/ourongxing/newsnow?logo=github"
                   />
                 </a>
               </li>
