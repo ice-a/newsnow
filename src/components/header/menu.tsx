@@ -72,23 +72,14 @@ export function Menu() {
               <li className="flex gap-2 items-center">
                 <span className="i-ph:github-logo-duotone inline-block" />
                 <a href="https://github.com/ice-a">去看看爱喝水的木子</a>
-                <img src="https://img.shields.io/github/followers/ice-a" />
               </li>
               <li className="flex gap-2 items-center">
                 <a
-                  href="https://github.com/ourongxing/newsnow"
+                  href="https://github.com/ice-a"
                 >
                   <img
                     alt="GitHub stars badge"
-                    src="https://img.shields.io/github/stars/ourongxing/newsnow?logo=github"
-                  />
-                </a>
-                <a
-                  href="https://github.com/ourongxing/newsnow/fork"
-                >
-                  <img
-                    alt="GitHub forks badge"
-                    src="https://img.shields.io/github/forks/ourongxing/newsnow?logo=github"
+                    src="https://img.shields.io/github/followers/ice-a"
                   />
                 </a>
               </li>
